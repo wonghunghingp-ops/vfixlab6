@@ -10,11 +10,11 @@ This repository is the index of FixLab's verified vulnerability writeups. Each v
 
 | Vulnerability | CVE | Severity | Fixed version | Writeup |
 |---|---|---|---|---|
-| PHP2Shell — PHP engine heap use-after-free RCE | CVE-2026-109618, CVE-2026-109619 | CVSS 9.2 | PHP 8.4.27 | [php2shell-cve-2026-109618](https://github.com/wonghunghingp-ops/php2shell-cve-2026-109618) |
-| Node2Shell — Node.js Brotli decoder out-of-bounds write RCE | CVE-2026-111497 | CVSS 9.2 | Node 24.22.1 / 22.23.4 / 26.12.1 | [node2shell-cve-2026-111497](https://github.com/wonghunghingp-ops/node2shell-cve-2026-111497) |
-| LiteLLM 1.107.0 supply-chain compromise — poisoned wheels, credential theft, persistent .pth backdoor | — (CWE-506) | Critical | litellm==1.106.2 + manual cleanup + credential rotation | [litellm-1-107-0-supply-chain-compromise](https://github.com/wonghunghingp-ops/litellm-1-107-0-supply-chain-compromise) |
-| Trojanized Claude Code extension on Cursor Marketplace — SSH backdoor via svc-telemetry key | — | Critical | Extension 2.1.314 + key/persistence removal + rotation | [cursor-claude-code-trojanized-extension](https://github.com/wonghunghingp-ops/cursor-claude-code-trojanized-extension) |
-| GitLab Onigmo RCE — Ruby regex integer overflow | CVE-2026-97229, CVE-2026-110264 | CVSS 10.0 | GitLab 19.2.8 / 19.3.5 / 19.4.2 and later patch releases + Ruby 3.3.13 | [gitlab-onigmo-cve-2026-97229](https://github.com/wonghunghingp-ops/gitlab-onigmo-cve-2026-97229) |
+| PHP2Shell — PHP engine heap use-after-free RCE | CVE-2026-109618, CVE-2026-109619 | CVSS 9.2 | PHP 8.4.27 | [php2shell-cve-2026-109618](https://github.com/wonghunghingp-ops/vfixlab1) |
+| Node2Shell — Node.js Brotli decoder out-of-bounds write RCE | CVE-2026-111497 | CVSS 9.2 | Node 24.22.1 / 22.23.4 / 26.12.1 | [node2shell-cve-2026-111497](https://github.com/wonghunghingp-ops/vfixlab2) |
+| LiteLLM 1.107.0 supply-chain compromise — poisoned wheels, credential theft, persistent .pth backdoor | — (CWE-506) | Critical | litellm==1.106.2 + manual cleanup + credential rotation | [litellm-1-107-0-supply-chain-compromise](https://github.com/wonghunghingp-ops/vfixlab3) |
+| Trojanized Claude Code extension on Cursor Marketplace — SSH backdoor via svc-telemetry key | — | Critical | Extension 2.1.314 + key/persistence removal + rotation | [cursor-claude-code-trojanized-extension](https://github.com/wonghunghingp-ops/vfixlab4) |
+| GitLab Onigmo RCE — Ruby regex integer overflow | CVE-2026-97229, CVE-2026-110264 | CVSS 10.0 | GitLab 19.2.8 / 19.3.5 / 19.4.2 and later patch releases + Ruby 3.3.13 | [gitlab-onigmo-cve-2026-97229](https://github.com/wonghunghingp-ops/vfixlab5) |
 
 ## What FixLab verifies
 

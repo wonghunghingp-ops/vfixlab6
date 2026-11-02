@@ -10,11 +10,11 @@ FixLab（飞克实验室）发布的漏洞研究，都先在自有隔离靶场�
 
 | 漏洞 | CVE | 严重度 | 修复版本 | 写法 |
 |---|---|---|---|---|
-| PHP2Shell — PHP 引擎堆 UAF 远程代码执行 | CVE-2026-109618、CVE-2026-109619 | CVSS 9.2 | PHP 8.4.27 | [php2shell-cve-2026-109618](https://github.com/wonghunghingp-ops/php2shell-cve-2026-109618) |
-| Node2Shell — Node.js Brotli 解码器越界写远程代码执行 | CVE-2026-111497 | CVSS 9.2 | Node 24.22.1 / 22.23.4 / 26.12.1 | [node2shell-cve-2026-111497](https://github.com/wonghunghingp-ops/node2shell-cve-2026-111497) |
-| LiteLLM 1.107.0 供应链投毒 — 投毒 Wheel、凭证窃取、持久化 .pth 后门 | —（CWE-506） | 严重 | litellm==1.106.2 + 手动清理 + 全部凭证轮换 | [litellm-1-107-0-supply-chain-compromise](https://github.com/wonghunghingp-ops/litellm-1-107-0-supply-chain-compromise) |
-| Cursor 市场木马化 Claude Code 扩展 — 经 svc-telemetry 密钥的 SSH 后门 | — | 严重 | 扩展 2.1.314 + 删密钥与持久化 + 轮换 | [cursor-claude-code-trojanized-extension](https://github.com/wonghunghingp-ops/cursor-claude-code-trojanized-extension) |
-| GitLab Onigmo RCE — Ruby 正则整数溢出 | CVE-2026-97229、CVE-2026-110264 | CVSS 10.0 | GitLab 19.2.8 / 19.3.5 / 19.4.2 及后续补丁版 + Ruby 3.3.13 | [gitlab-onigmo-cve-2026-97229](https://github.com/wonghunghingp-ops/gitlab-onigmo-cve-2026-97229) |
+| PHP2Shell — PHP 引擎堆 UAF 远程代码执行 | CVE-2026-109618、CVE-2026-109619 | CVSS 9.2 | PHP 8.4.27 | [php2shell-cve-2026-109618](https://github.com/wonghunghingp-ops/vfixlab1) |
+| Node2Shell — Node.js Brotli 解码器越界写远程代码执行 | CVE-2026-111497 | CVSS 9.2 | Node 24.22.1 / 22.23.4 / 26.12.1 | [node2shell-cve-2026-111497](https://github.com/wonghunghingp-ops/vfixlab2) |
+| LiteLLM 1.107.0 供应链投毒 — 投毒 Wheel、凭证窃取、持久化 .pth 后门 | —（CWE-506） | 严重 | litellm==1.106.2 + 手动清理 + 全部凭证轮换 | [litellm-1-107-0-supply-chain-compromise](https://github.com/wonghunghingp-ops/vfixlab3) |
+| Cursor 市场木马化 Claude Code 扩展 — 经 svc-telemetry 密钥的 SSH 后门 | — | 严重 | 扩展 2.1.314 + 删密钥与持久化 + 轮换 | [cursor-claude-code-trojanized-extension](https://github.com/wonghunghingp-ops/vfixlab4) |
+| GitLab Onigmo RCE — Ruby 正则整数溢出 | CVE-2026-97229、CVE-2026-110264 | CVSS 10.0 | GitLab 19.2.8 / 19.3.5 / 19.4.2 及后续补丁版 + Ruby 3.3.13 | [gitlab-onigmo-cve-2026-97229](https://github.com/wonghunghingp-ops/vfixlab5) |
 
 ## FixLab 验证什么
 
